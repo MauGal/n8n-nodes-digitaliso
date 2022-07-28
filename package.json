@@ -1,19 +1,19 @@
 {
-  "name": "n8n-nodes-starter",
-  "version": "0.1.0",
-  "description": "Example starter module for custom n8n nodes.",
+  "name": "n8n-nodes-digitaliso",
+  "version": "0.1.10",
+  "description": "Custom n8n node for Digitaliso working on API operation.",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "https://n8n.io",
+  "homepage": "https://digitaliso.com",
   "author": {
-    "name": "Jan Oberhauser",
-    "email": "jan@n8n.io"
+    "name": "Mauro Galafassi",
+    "email": "m.galafassi@qsa.net"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/n8n-io/n8n-nodes-starter.git"
+    "url": "git+https://github.com/MauGal/n8n-nodes-digitaliso.git"
   },
   "main": "index.js",
   "scripts": {
@@ -30,12 +30,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/DigitalisoApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/Digitaliso/Digitaliso.node.js"
     ]
   },
   "devDependencies": {
