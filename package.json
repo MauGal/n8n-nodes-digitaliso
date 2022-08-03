@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-digitaliso",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Custom n8n node for Digitaliso working on API operation.",
   "keywords": [
     "n8n-community-node-package"
